@@ -1,18 +1,13 @@
-import { Grid } from '@material-ui/core';
+import React from 'react';
 import './App.css';
+import Container from './components/Container';
 import Search from './components/Search';
-// Main function, properties are listed in className tag
+
 function App() {
   return (
-    <Grid
-    className="App"
-    container
-    direction='column'
-    justify='center'
-    alignItems='center'
-    >
-    <Search />
-    </Grid>
+    <Container>
+      <Search />
+    </Container>
   );
 }
 
