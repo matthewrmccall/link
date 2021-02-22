@@ -3,7 +3,7 @@ import { Button, TextField, LinearProgress } from '@material-ui/core';
 
 import styled from 'styled-components';
 
-import shrtcode from '/Users/matthewmccall/Projects/Web/Link/src/api/shrtcode.js';
+import shrtcode from '/Users/matthewmccall/Projects/Web/Link/src/shrtcode.js';
 import DisplayLink from './DisplayLink';
 
 const StyledForm = styled.form`
